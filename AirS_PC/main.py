@@ -36,10 +36,8 @@ def update_save():
         best_score = score
         with open("save.txt", "w", encoding="utf-8") as file:
             file.write(str(int(best_score)))
-            print(f"Writed {int(best_score)}")
 
 while True:
-    print(best_score)
     try:
         with open("save.txt", "r", encoding="utf-8") as file:
             best_score = int(file.read())
