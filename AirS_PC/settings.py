@@ -1,0 +1,12 @@
+
+WIDTH = 500
+HEIGHT = 800
+
+FPS = 60
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+
+SPEED = 5
+
+PAUSED = False
